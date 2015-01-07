@@ -13,7 +13,7 @@ vertx.setPeriodic(1000, function (timerId) {
     vertx.eventBus.publish("/city", {
         action: "hello",
         from: id,
-        team: <- YOUR TEAM NAME HERE
+        team: "sfr_business_team",
         type: "factory",
         version: "1.0"
     });
